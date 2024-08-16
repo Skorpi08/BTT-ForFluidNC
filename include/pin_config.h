@@ -1,0 +1,69 @@
+#pragma once
+
+// FSMC GPIO Configuration
+#define PIN_LCD_BL PD12 // LCD Backlight
+#define PIN_LCD_CS PD7  // FSMC_NE1
+#define PIN_LCD_DC PE2  // FSMC_A23
+#define PIN_LCD_WR PD5  // FSMC_NWE
+#define PIN_LCD_RD PD4  // FSMC_NOE
+#define PIN_LCD_D0 PD14
+#define PIN_LCD_D1 PD15
+#define PIN_LCD_D2 PD0
+#define PIN_LCD_D3 PD1
+#define PIN_LCD_D4 PE7
+#define PIN_LCD_D5 PE8
+#define PIN_LCD_D6 PE9
+#define PIN_LCD_D7 PE10
+#define PIN_LCD_D8 PE11
+#define PIN_LCD_D9 PE12
+#define PIN_LCD_D10 PE13
+#define PIN_LCD_D11 PE14
+#define PIN_LCD_D12 PE15
+#define PIN_LCD_D13 PD8
+#define PIN_LCD_D14 PD9
+#define PIN_LCD_D15 PD10
+
+// I2C
+#define PIN_I2C_SDA PB11
+#define PIN_I2C_SCL PB10
+
+// Serial
+#define PIN_SERIAL_TX1 PA9
+#define PIN_SERIAL_RX1 PA10
+#define PIN_SERIAL_TX2 PA2
+#define PIN_SERIAL_RX2 PA3
+#define PIN_SERIAL_TX3 PB10
+#define PIN_SERIAL_RX3 PB11
+#define PIN_SERIAL_TX4 PC10
+#define PIN_SERIAL_RX4 PC11
+
+// Buzzer
+#define PIN_BUZZER PD13
+
+// Touchscreen
+#define PIN_XPT2046_TPEN PC13
+#define PIN_XPT2046_MISO PE4
+#define PIN_XPT2046_MOSI PE3
+#define PIN_XPT2046_SCK PE5
+#define PIN_XPT2046_CS PE6
+
+// SDcard
+#define PIN_SD_DET PC4
+#define PIN_SD_MISO PA6
+#define PIN_SD_MOSI PA7
+#define PIN_SD_SCK PA5
+#define PIN_SD_CS PA4
+
+// W25Q64 SPI3
+#define PIN_W25Q64_MISO PB5
+#define PIN_W25Q64_MOSI PB4
+#define PIN_W25Q64_SCK PB3
+#define PIN_W25Q64_CS PB6
+
+// Encoder
+#define PIN_ENCODER_BUTTON PC8
+#define PIN_ENCODER_ENCA PA8
+#define PIN_ENCODER_ENCB PC9
+
+// WS2812
+#define PIN_WS2812 PC7
